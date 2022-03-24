@@ -90,6 +90,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    opacity: 1;
 }
 
 .b-parallax {
@@ -438,7 +439,9 @@ nav .caret {
     margin-bottom: 20px;
 }
 .mg-md.text-center.tc-white {
-color: #FFF;
+color: #fff;
+font-size: xx-large;
+
 }
 
 .mg-lg {
@@ -1043,5 +1046,14 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+        
+    }
+    .portfolio-thumb.image3{
+        width: -webkit-fill-available;
+
+    }
+    .portfolio-thumb.image4{
+        width: -webkit-fill-available;
+
     }
 }
